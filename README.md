@@ -27,7 +27,7 @@ To use with Claude Desktop, add this server configuration:
   "mcpServers": {
     "youtube-transcript": {
       "command": "npx",
-      "args": ["-y", "@kimteayoon83/mcp-server-youtube-transcrip"]
+      "args": ["-y", "@kimtaeyoon83/mcp-server-youtube-transcrip"]
     }
   }
 }

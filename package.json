@@ -1,5 +1,5 @@
 {
-  "name": "@kimteayoon83/mcp-server-youtube-transcript",
+  "name": "@kimtaeyoon83/mcp-server-youtube-transcript",
   "version": "0.1.0",
   "description": "This is an MCP server that allows you to directly download transcripts of YouTube videos.",
   "license": "MIT",
