@@ -33,6 +33,19 @@ To use with Claude Desktop, add this server configuration:
 }
 ```
 
+## Install via tool
+
+[mcp-get](https://github.com/michaellatman/mcp-get) A command-line tool for installing and managing Model Context Protocol (MCP) servers.
+
+```shell 
+npx @michaellatman/mcp-get@latest list
+
+@kimtaeyoon83/mcp-server-youtube-transcript │ This is an MCP server that allows you to dir... │ Freddie (https://github.com/kimtaeyoon83) │ MIT
+```
+
+## Awesome-mcp-servers 
+[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) A curated list of awesome Model Context Protocol (MCP) servers.
+
 ## Development
 
 ### Prerequisites
