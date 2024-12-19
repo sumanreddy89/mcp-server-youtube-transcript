@@ -4,6 +4,8 @@
 
 A Model Context Protocol server that enables retrieval of transcripts from YouTube videos. This server provides direct access to video captions and subtitles through a simple interface.
 
+<a href="https://glama.ai/mcp/servers/z429kk3te7"><img width="380" height="200" src="https://glama.ai/mcp/servers/z429kk3te7/badge" alt="mcp-server-youtube-transcript MCP server" /></a>
+
 ### Installing via Smithery
 
 To install YouTube Transcript Server for Claude Desktop automatically via [Smithery](https://smithery.ai/protocol/@kimtaeyoon83/mcp-server-youtube-transcript):
