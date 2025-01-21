@@ -1,6 +1,6 @@
 # YouTube Transcript Server
 
-[![smithery badge](https://smithery.ai/badge/@kimtaeyoon83/mcp-server-youtube-transcript)](https://smithery.ai/protocol/@kimtaeyoon83/mcp-server-youtube-transcript)
+[![smithery badge](https://smithery.ai/badge/@kimtaeyoon83/mcp-server-youtube-transcript)](https://smithery.ai/server/@kimtaeyoon83/mcp-server-youtube-transcript)
 
 A Model Context Protocol server that enables retrieval of transcripts from YouTube videos. This server provides direct access to video captions and subtitles through a simple interface.
 
@@ -8,10 +8,10 @@ A Model Context Protocol server that enables retrieval of transcripts from YouTu
 
 ### Installing via Smithery
 
-To install YouTube Transcript Server for Claude Desktop automatically via [Smithery](https://smithery.ai/protocol/@kimtaeyoon83/mcp-server-youtube-transcript):
+To install YouTube Transcript Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kimtaeyoon83/mcp-server-youtube-transcript):
 
 ```bash
-npx @smithery/cli install @kimtaeyoon83/mcp-server-youtube-transcript --client claude
+npx -y @smithery/cli install @kimtaeyoon83/mcp-server-youtube-transcript --client claude
 ```
 
 ## Components
