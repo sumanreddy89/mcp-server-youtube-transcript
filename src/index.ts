@@ -1,5 +1,5 @@
 import express from "express";
-import { getTranscript } from "./utils/getTranscript"; // adjust path if needed
+import { getTranscript } from "./utils/getTranscript.js"; // adjust path if needed
 
 const app = express();
 const port = process.env.PORT || 3000;
