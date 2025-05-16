@@ -1,3 +1,10 @@
+import { getTranscript as getTranscriptFromYouTube } from 'youtube-transcript';
+
 export async function getTranscript(url: string): Promise<string> {
-  return `Transcript for ${url} (mocked)`;
+  try {
+    const transcript = await getTranscriptFromYouTube(url);
+    return transcript.map((entry) => entry.text).join(' ');
+  } catch (err: any) {
+    throw new Error(`Transcript fetch failed: ${err.message}`);
+  }
 }
