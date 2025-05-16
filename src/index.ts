@@ -2,6 +2,20 @@
 
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import express from "express";
+import { serve } from "@modelcontextprotocol/server";
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.use(express.json());
+
+app.use("/", serve());
+
+app.listen(port, () => {
+  console.log(`MCP server running on port ${port}`);
+});
+
 import {
   CallToolRequestSchema,
   ListToolsRequestSchema,
